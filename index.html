@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support VPN</title>
     <link rel="stylesheet" href="src/assets/styles/style.css">
     <link rel="stylesheet" href="src/assets/styles/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./src/assets/scripts/functions.js" defer></script>
+    <title>Support VPN</title>
 </head>
 
 <body>
@@ -17,19 +19,19 @@
             <img src="src/assets/images/icons/logoSupportVPN.svg" alt="Logo da SupportVPN">
             <h1>Support<b>VPN</b></h1>
         </a>
-        
-        <nav class="desktop-menu">  <!-- Menu Desktop -->
+
+        <nav class="desktop-menu"> <!-- Menu Desktop -->
             <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Pricing</a></li>
-                <li><a href="#">Tertimonials</a></li>
+                <li><a href="#">Testimonials</a></li>
                 <li><a href="#">Help</a></li>
             </ul>
         </nav>
 
-        <div class="mobile-menu" id="mobile-menu">  <!-- Menu Mobile -->
-            <div class="closed-button" id="closed-button">  <!-- Fechar Menu Mobile -->
+        <div class="mobile-menu" id="mobile-menu"> <!-- Menu Mobile -->
+            <div class="closed-button" id="closed-button"> <!-- Fechar Menu Mobile -->
                 <i class="bi bi-x-lg"></i>
             </div>
 
@@ -45,348 +47,400 @@
 
         </div>
 
-        <div class="overlayMenu" id="overlayMenu"></div>  <!-- Para Deixar a Tela Escurecida ao Abrir o Menu Mobile -->
-    
+        <div class="overlayMenu" id="overlayMenu"></div> <!-- Para Deixar a Tela Escurecida ao Abrir o Menu Mobile -->
+
         <div class="access-container">
             <button type="button">Sign In</button>
             <button type="button">Sign Up</button>
         </div>
 
-        <div class="open-menu-button" id="open-menu-button">  <!-- Abrir Menu Mobile -->
+        <div class="open-menu-button" id="open-menu-button"> <!-- Abrir Menu Mobile -->
             <i class="bi bi-list"></i>
         </div>
-
     </header>
 
-    <main>
-        <!-- Hero da Página -->
-        <section class="about-container">
-            <div class="section-content">
-                <h2>Want anything to be easy with <span>SupportVPN</span>.</h2>
-                <p>Provide a network for all your needs with ease and fun using SupportVPN discover interesting features
-                    from
-                    us.</p>
+    <!-- Hero da Página -->
+    <main class="about-container">
+        <div class="section-content">
+            <h2>Want anything to be easy with <span>SupportVPN</span>.</h2>
+            <p>Provide a network for all your needs with ease and fun using SupportVPN discover interesting features
+                from
+                us.</p>
 
-                <button type="button">Get Started</button>
+            <button type="button">Get Started</button>
+        </div>
+
+        <img src="src/assets/images/Illustration_1.svg"
+            alt="Imagem de garoto branco mechendo no notebook com icones em volta">
+    </main>
+
+    <!-- Seção de informação - quantidades de usuarios, localizações e servidores -->
+    <section class="info-container">
+        <div class="info-div">
+            <img src="src/assets/images/icons/user.svg" alt="Icone de Usuarios">
+            <p><span>90+</span><br>Users</p>
+        </div>
+
+        <img src="src/assets/images/icons/vector14_line_vertical.svg" alt="Icone vetor de linha separadora">
+
+        <div class="info-div">
+            <img src="src/assets/images/icons/location.svg" alt="Icone de Localização">
+            <p><span>30+</span><br>Locations</p>
+        </div>
+
+        <img src="src/assets/images/icons/vector14_line_vertical.svg" alt="Icone vetor de linha separadora">
+
+        <div class="info-div">
+            <img src="src/assets/images/icons/server.svg" alt="Icone de Servidores">
+            <p><span>50+</span><br>Servers</p>
+        </div>
+    </section>
+
+    <!-- Seção de Features -->
+    <section class="features-container">
+        <img src="src/assets/images/Illustration_2.svg" alt="Pessoa feliz com computador, referência de features">
+
+        <div>
+            <div class="feat-div-title-par">
+                <h2>We Provide Many<br>Features You Can Use</h2>
+                <p>
+                    You can explore the features that we provide with fun and<br>have their own functions each feature.
+                </p>
             </div>
 
-            <img src="src/assets/images/Illustration_1.svg" alt="Imagem de garoto branco mechendo no notebook com icones em volta">
-        </section>
-
-        <!-- Seção de informação - quantidades de usuarios, localizações e servidores -->
-        <section class="info-container">
-            <div class="info-div">
-                <img src="src/assets/images/icons/user.svg" alt="Icone de Usuarios">
-                <p><span>90+</span><br>Users</p>
+            <div class="feat-div-afirmatives">
+                <img src="src/assets/images/icons/icon_afirmative.svg" alt="Icone de afirmação">
+                <p>Powerfull online protection.</p>
             </div>
 
-            <img src="src/assets/images/icons/vector14_line_vertical.svg" alt="Icone vetor de linha separadora">
-
-            <div class="info-div">
-                <img src="src/assets/images/icons/location.svg" alt="Icone de Localização">
-                <p><span>30+</span><br>Locations</p>
+            <div class="feat-div-afirmatives">
+                <img src="src/assets/images/icons/icon_afirmative.svg" alt="Icone de afirmação">
+                <p>Internet without borders.</p>
             </div>
 
-            <img src="src/assets/images/icons/vector14_line_vertical.svg" alt="Icone vetor de linha separadora">
-
-            <div class="info-div">
-                <img src="src/assets/images/icons/server.svg" alt="Icone de Servidores">
-                <p><span>50+</span><br>Servers</p>
+            <div class="feat-div-afirmatives">
+                <img src="src/assets/images/icons/icon_afirmative.svg" alt="Icone de afirmação">
+                <p>Supercharged VPN</p>
             </div>
 
-        </section>
+            <div class="feat-div-afirmatives">
+                <img src="src/assets/images/icons/icon_afirmative.svg" alt="Icone de afirmação">
+                <p>No specific time limits.</p>
+            </div>
+        </div>
+    </section>
 
-        <!-- Seção de Features -->
-        <section class="features-container">
-            <img src="src/assets/images/Illustration_2.svg" alt="Pessoa feliz com computador, referência de features">
+    <!-- Seção de Planos -->
+    <section class="plan-container">
+        <h2>Choose your Plan</h2>
+        <p>Let's choose the package that is best for you and explore it happily and<br>cheerfully.</p>
 
-            <div>
-                <div class="feat-div-title-par">
-                    <h2>We Provide Many<br>Features You Can Use</h2>
-                    <p>
-                        You can explore the features that we provide with fun and<br>have their own functions each feature.
-                    </p>
+        <!-- Div dos Cards -->
+        <div class="div-cards-geral">
+
+            <!-- Card Free Plan -->
+            <div class="div-card-unitary">
+                <!-- Imagem de caixa de presente -->
+                <img src="src/assets/images/gift.svg" alt="Imagem caixa de presente aberto">
+                <h3>Free Plan</h3>
+
+                <!-- Descrição de opções do plano -->
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Unlimited Bandwitch</p>
                 </div>
 
-                <div class="feat-div-afirmatives">
-                    <img src="src/assets/images/icons/icon_afirmative.svg" alt="Icone de afirmação">
-                    <p>Powerfull online protection.</p>
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Encrypted Connection</p>
                 </div>
 
-                <div class="feat-div-afirmatives">
-                    <img src="src/assets/images/icons/icon_afirmative.svg" alt="Icone de afirmação">
-                    <p>Internet without borders.</p>
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>No Traffic Logs</p>
                 </div>
 
-                <div class="feat-div-afirmatives">
-                    <img src="src/assets/images/icons/icon_afirmative.svg" alt="Icone de afirmação">
-                    <p>Supercharged VPN</p>
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Works on All Devices</p>
                 </div>
 
-                <div class="feat-div-afirmatives">
-                    <img src="src/assets/images/icons/icon_afirmative.svg" alt="Icone de afirmação">
-                    <p>No specific time limits.</p>
-                </div>
+                <div class="plan-free-button">
+                    <p><span>Free</span></p>
 
+                    <!-- Botão -->
+                    <button type="button">Select</button>
+                </div>
             </div>
 
-        </section>
+            <!-- Card Standard Plan -->
+            <div class="div-card-unitary">
+                <!-- Imagem de caixa de presente -->
+                <img src="src/assets/images/gift.svg" alt="Imagem caixa de presente aberto">
+                <h3>Standard Plan</h3>
 
-        <!-- Seção de Planos -->
-        <section class="plan-container">
-            <h2>Choose your Plan</h2>
-            <p>Let's choose the package that is best for you and explore it happily and<br>cheerfully.</p>
-
-            <!-- Div dos Cards -->
-            <div class="div-cards-geral">
-
-                <!-- Card Free Plan -->
-                <div class="div-card-unitary">
-                    <!-- Imagem de caixa de presente -->
-                    <img src="src/assets/images/gift.svg" alt="Imagem caixa de presente aberto">
-                    <h3>Free Plan</h3>
-
-                    <!-- Descrição de opções do plano -->
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Unlimited Bandwitch</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Encrypted Connection</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>No Traffic Logs</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Works on All Devices</p>
-                    </div>
-
-                    <div class="plan-free-button">
-                        <p><span>Free</span></p>
-
-                        <!-- Botão -->
-                        <button type="button">Select</button>
-                    </div>
+                <!-- Descrição de opções do plano -->
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Unlimited Bandwitch</p>
                 </div>
 
-                <!-- Card Standard Plan -->
-                <div class="div-card-unitary">
-                    <!-- Imagem de caixa de presente -->
-                    <img src="src/assets/images/gift.svg" alt="Imagem caixa de presente aberto">
-                    <h3>Standard Plan</h3>
-
-                    <!-- Descrição de opções do plano -->
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Unlimited Bandwitch</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Encrypted Connection</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>No Traffic Logs</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Works on All Devices</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Connect Anyware</p>
-                    </div>
-
-                    <div class="plan-9-button">
-                        <p><span>$9</span> / mo</p>
-
-                        <!-- Botão -->
-                        <button type="button">Select</button>
-                    </div>
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Encrypted Connection</p>
                 </div>
 
-                <!-- Card Premium Plan -->
-                <div class="div-card-unitary">
-                    <!-- Imagem de caixa de presente -->
-                    <img src="src/assets/images/gift.svg" alt="Imagem caixa de presente aberto">
-                    <h3>Premium Plan</h3>
-
-                    <!-- Descrição de opções do plano -->
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Unlimited Bandwitch</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Encrypted Connection</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>No Traffic Logs</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Works on All Devices</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Connect Anyware</p>
-                    </div>
-
-                    <div class="div-cards-info">
-                        <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
-                        <p>Get New Features</p>
-                    </div>
-
-                    <div class="plan-12-button">
-                        <p><span>$12</span> / mo</p>
-
-                        <!-- Botão -->
-                        <button type="button">Select</button>
-                    </div>
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>No Traffic Logs</p>
                 </div>
 
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Works on All Devices</p>
+                </div>
+
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Connect Anyware</p>
+                </div>
+
+                <div class="plan-9-button">
+                    <p><span>$9</span> / mo</p>
+
+                    <!-- Botão -->
+                    <button type="button">Select</button>
+                </div>
             </div>
 
-        </section>
+            <!-- Card Premium Plan -->
+            <div class="div-card-unitary">
+                <!-- Imagem de caixa de presente -->
+                <img src="src/assets/images/gift.svg" alt="Imagem caixa de presente aberto">
+                <h3>Premium Plan</h3>
 
-        <!-- Seção de Mapa VPN -->
-        <section class="world-map-container">
-            <h2>Huge Global Network of<br>Fast VPN</h2>
-            <p>See <span>LaslesVPN</span> everywhere to make it easier for you when you move locations.</p>
+                <!-- Descrição de opções do plano -->
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Unlimited Bandwitch</p>
+                </div>
 
-            <img src="src/assets/images/world_map.svg" alt="Mapa mundi com pontos sobre VPN">
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Encrypted Connection</p>
+                </div>
 
-        </section>
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>No Traffic Logs</p>
+                </div>
 
-        <!-- Seção de Empresas que Utilizam o Serviço -->
-        <section class="companies-logos-container">
-            <img src="src/assets/images/companies_logos.svg" alt="Logo de empresas">
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Works on All Devices</p>
+                </div>
 
-        </section>
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Connect Anyware</p>
+                </div>
 
-        <!-- Seção de Comentarios -->
-        <section class="comments-container">
+                <div class="div-cards-info">
+                    <img src="src/assets/images/icons/icon_afirmative2.svg" alt="Icone de afirmação">
+                    <p>Get New Features</p>
+                </div>
+
+                <div class="plan-12-button">
+                    <p><span>$12</span> / mo</p>
+
+                    <!-- Botão -->
+                    <button type="button">Select</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Mapa VPN -->
+    <section class="world-map-container">
+        <h2>Huge Global Network of<br>Fast VPN</h2>
+        <p>See <span>LaslesVPN</span> everywhere to make it easier for you when you move locations.</p>
+
+        <img src="src/assets/images/world_map.svg" alt="Mapa mundi com pontos sobre VPN">
+    </section>
+
+    <!-- Seção de Empresas que Utilizam o Serviço -->
+    <section class="companies-logos-container">
+        <img src="src/assets/images/companies_logos.svg" alt="Logo de empresas">
+    </section>
+
+    <section class="testimonials-container">
+
+        <!-- Topo da Seção -->
+        <div class="testimonials-header">
             <h2>Trusted by Thousands of<br>Happy Customer</h2>
             <p>These are the stories of our customers who have joined us with great<br>pleasure when using this crazy
                 feature.</p>
+        </div>
 
-            <div class="cards-container">
-                <!-- Cards dos Comentários -->
-                <div class="comments-cards">
+        <!-- Container Geral -->
+        <div class="swiper-container">
 
-                    <div class="top-part">
-                        <div class="commentator-information">
-                            <img class="peaple-photo-comment" src="src/assets/images/photo_men.png" alt="Foto do Comentarista">
-                            <div>
+            <!-- Slides Container -->
+            <div class="swiper-wrapper">
+
+                <!-- Card -->
+                <div class="swiper-slide">
+                    <div class="testimonial-card active">
+
+                        <!-- Informações do Usuario -->
+                        <div class="peaple-info">
+                            <img src="./src/assets/images/photo_men.png"
+                                alt="Imagem de um homem, usuario do produto, em um card, com comentáio dele">
+
+                            <div class="peaple-name-location">
                                 <h3>Viezh Robert</h3>
                                 <p>Warsaw, Poland</p>
                             </div>
+
+                            <!-- Avaliação -->
+                            <div class="rate">
+                                <p>4.5</p>
+                                <img src="./src/assets/images/icons/icon_star.svg" alt="estrela de avaliação">
+                            </div>
                         </div>
 
-                        <div class="assessment">
-                            <p><span>4.5</span></p>
-                            <img class="icon-star" src="src/assets/images/icons/icon_star.svg" alt="Icone de Estrela">
-                        </div>
+                        <!-- Comentário -->
+                        <p class="testimonial-text">“Wow... I am very happy to use this VPN, it turned out to be more
+                            than my expectations and so far
+                            there have been no problems. LaslesVPN always the best”.</p>
                     </div>
-
-                    <p class="comment">“Wow... I am very happy to use this VPN, it<br>turned out to be more than my
-                        expectations<br>and so far there have been no problems.<br>LaslesVPN always the best.”.</p>
-
                 </div>
 
-                <div class="comments-cards" style="border: 2px solid #DDDDDD;">
+                <!-- Card -->
+                <div class="swiper-slide">
+                    <div class="testimonial-card">
 
-                        <div class="top-part">
-                            <div class="commentator-information">
-                                <img class="peaple-photo-comment" src="src/assets/images/photo_japonese_woman.png" alt="Foto do Comentarista">
-                                <div>
-                                    <h3>Yessica Christy</h3>
-                                    <p>Shanxi, China</p>
-                                </div>
+                        <!-- Informações do Usuario -->
+                        <div class="peaple-info">
+                            <img src="./src/assets/images/photo_japonese_woman.png"
+                                alt="Imagem de uma mulher japonesa, usuaria do produto, em um card, com comentáio dela">
+
+                            <div class="peaple-name-location">
+                                <h 3>Yessica Christy</h>
+
+                                <p>Shanxi, China</p>
                             </div>
 
-                            <div class="assessment">
-                                <p><span>4.5</span></p>
-                                <img class="icon-star" src="src/assets/images/icons/icon_star.svg" alt="Icone de Estrela">
+                            <!-- Avaliação -->
+                            <div class="rate">
+                                <p>4.5</p>
+                                <img src="./src/assets/images/icons/icon_star.svg" alt="estrela de avaliação">
                             </div>
                         </div>
-                    
-                        <p class="comment">“I like it because I like to travel far and still can<br>connect with high speed.”.</p>
 
+                        <!-- Comentário -->
+                        <p class="testimonial-text">“I like it because I like to travel far and still can connect with
+                            high speed.”.</p>
+                    </div>
                 </div>
 
-                <div class="comments-cards" style="border: 2px solid #DDDDDD;">
+                <!-- Card -->
+                <div class="swiper-slide">
+                    <div class="testimonial-card">
 
-                    <div class="top-part">
-                        <div class="commentator-information">
-                            <img class="peaple-photo-comment" src="src/assets/images/photo_japonese_men.png" alt="Foto do Comentarista">
-                            <div>
+                        <!-- Informações do Usuario -->
+                        <div class="peaple-info">
+                            <img src="./src/assets/images/photo_korean_men.png"
+                                alt="Imagem de um homem koreano, usuario do produto, em um card, com comentáio dele">
+
+                            <div class="peaple-name-location">
                                 <h3>Kim Young Jou</h3>
                                 <p>Seoul, South Korea</p>
                             </div>
+
+                            <!-- Avaliação -->
+                            <div class="rate">
+                                <p>4.5</p>
+                                <img src="./src/assets/images/icons/icon_star.svg" alt="estrela de avaliação">
+                            </div>
                         </div>
 
-                        <div class="assessment">
-                            <p><span>4.5</span></p>
-                            <img class="icon-star"src="src/assets/images/icons/icon_star.svg" alt="Icone de Estrela">
-                        </div>
+                        <!-- Comentário -->
+                        <p class="testimonial-text">“This is very unusual for my business that currently requires a
+                            virtual private network that has high
+                            security.”.</p>
                     </div>
+                </div>
 
-                    <p class="comment">“This is very unusual for my business that<br>currently requires a virtual private network<br>that has high security.”.</p>
-                    
+                <!-- Card -->
+                <div class="swiper-slide">
+                    <div class="testimonial-card">
+
+                        <!-- Informações do Usuario -->
+                        <div class="peaple-info">
+                            <img src="./src/assets/images/photo_men_two.png"
+                                alt="Imagem de um homem negro, usuario do produto, em um card, com comentáio dele">
+
+                            <div class="peaple-name-location">
+                                <h3>William Smith</h3>
+                                <p>England</p>
+                            </div>
+
+                            <!-- Avaliação -->
+                            <div class="rate">
+                                <p>4.5</p>
+                                <img src="./src/assets/images/icons/icon_star.svg" alt="estrela de avaliação">
+                            </div>
+                        </div>
+
+                        <!-- Comentário -->
+                        <p class="testimonial-text">"Our business operations demand a robust VPN with top-tier security
+                            features."</p>
+                    </div>
                 </div>
 
             </div>
 
-            <!-- Botão seta esquerda e direita -->
-            <div class="comment-select">
-                <img src="src/assets/images/icons/icon_selection_comments.svg" alt="Icone de seleção de comentario">
+        </div>
 
-                <div class="buttons-comments-sets">
-                    <button type="button">
-                        <i class="bi bi-arrow-left-circle"></i>
-                    </button>
+        <!-- Botões de Navegação e Paginação dos Slides -->
+        <div class="testimonials-nav">
 
-                    <button type="button">
-                        <i class="bi bi-arrow-right-circle"></i>
-                    </button>
-                </div>
+            <!-- Paginação -->
+            <div class="pagination-container">
+                <span class="dot dotActive"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
             </div>
 
+            <!-- Setas de Navegação -->
+            <div class="arrows-buttons">
+                <button id="arrow-left" type="button">
+                    <i class="bi bi-arrow-left-circle"></i>
+                </button>
 
-            <div class="subscribe-container">
-                <div class="div-subscribe-title-parag">
-                    <h2>Subscribe Now for<br>Get Special Features!</h2>
-                    <p>Let's subscribe with us and find the fun.</p>
-                </div>
+                <button id="arrow-right" type="button">
+                    <i class="bi bi-arrow-right-circle"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Chamado para Inscrição -->
+        <div class="subscribe-container">
+            <div class="div-subscribe-title-parag">
+                <h2>Subscribe Now for<br>Get Special Features!</h2>
+                <p>Let's subscribe with us and find the fun.</p>
+            </div>
     
-                <button>Subscribe Now</button>
-            </div>
-
-        </section>
-
-        
-
-    </main>
+            <button>Subscribe Now</button>
+        </div>
+    </section>
 
     <!-- Rodapé da Página -->
     <footer>
-        <div class="company-information">   <!-- Primeira parte do rodapé -->
+        <div class="company-information"> <!-- Primeira parte do rodapé -->
             <a href="#" class="logo-container">
                 <img src="src/assets/images/icons/logoSupportVPN.svg" alt="Logo da SupportVPN">
                 <h2>Support<b>VPN</b></h2>
@@ -411,11 +465,11 @@
             <p><span>©2020Lasles<b>VPN</b></span></p>
         </div>
 
-        <div class="div-footer-options">   <!-- Segunda parte do rodapé -->
+        <div class="div-footer-options"> <!-- Segunda parte do rodapé -->
             <!-- Product -->
             <div class="div-product">
                 <p><span>Product</span></p>
-                
+
                 <a href="#">Download</a>
 
                 <a href="#">Pricing</a>
@@ -424,8 +478,8 @@
 
                 <a href="#">Server</a>
 
-                <a href="#">Countries</a>  
-                
+                <a href="#">Countries</a>
+
                 <a href="#">Blog</a>
 
             </div>
@@ -454,14 +508,13 @@
 
                 <a href="#">Affiliate</a>
 
-                <a href="#">Become Partner</a>    
+                <a href="#">Become Partner</a>
 
             </div>
 
         </div>
-
     </footer>
-     
+    
 </body>
 
 </html>
