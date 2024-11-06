@@ -1,13 +1,14 @@
 /* Responsividade - Mobile (Celular) */
 
 @media screen and (max-width: 480px) {
+
     /* Todo corpo da Página */
     body {
         width: 100%;
         height: 100%;
     }
 
-    
+
     /* Topo da Página */
     header {
         display: flex;
@@ -37,7 +38,8 @@
 
 
     /* Menu Mobile */
-    .open-menu-button i {  /* Botão Abrir Menu Mobile */
+    .open-menu-button i {
+        /* Botão Abrir Menu Mobile */
         display: block;
         font-size: 30px;
         margin: 0;
@@ -45,7 +47,8 @@
         color: #000000;
     }
 
-    .mobile-menu {  /* Estrutura do Menu Mobile */
+    .mobile-menu {
+        /* Estrutura do Menu Mobile */
         display: block;
         width: 0%;
         height: 100%;
@@ -59,29 +62,35 @@
     }
 
     /* Ação do Javascript no Menu Mobile */
-    .mobile-menu.abrir-menu {  /* Classe (abrir-menu) Criada no Javascript para Abrir o Menu na Versão Mobile */
+    .mobile-menu.abrir-menu {
+        /* Classe (abrir-menu) Criada no Javascript para Abrir o Menu na Versão Mobile */
         width: 60%;
     }
 
-    .mobile-menu.abrir-menu ~ .overlayMenu {  /* Adicionando e Habilitando o Efeito da Classe overlay-menu ao Abrir o Menu Mobile */
+    .mobile-menu.abrir-menu~.overlayMenu {
+        /* Adicionando e Habilitando o Efeito da Classe overlay-menu ao Abrir o Menu Mobile */
         display: block;
     }
 
-    .mobile-menu .closed-button {  /* Estrutura do Botão Fechar Menu Mobile */
+    .mobile-menu .closed-button {
+        /* Estrutura do Botão Fechar Menu Mobile */
         margin-left: 15px;
         margin-top: 15px;
     }
 
-    .mobile-menu .closed-button i {  /* Botão Fechar Menu Mobile */
+    .mobile-menu .closed-button i {
+        /* Botão Fechar Menu Mobile */
         font-size: 25px;
         color: white;
     }
 
-    .mobile-menu>nav>ul {  /* Lista com as Opções do Menu Mobile */
+    .mobile-menu>nav>ul {
+        /* Lista com as Opções do Menu Mobile */
         text-align: right;
     }
 
-    .mobile-menu>nav>ul>li>a {  /* Especificamente Configurações nas Opções/Links */
+    .mobile-menu>nav>ul>li>a {
+        /* Especificamente Configurações nas Opções/Links */
         color: #F8F8F8;
         padding: 15px 20px;
         display: block;
@@ -92,7 +101,8 @@
         color: #4F5665;
     }
 
-    .overlayMenu{  /* Efeito para Escurecer a Tela ao Abrir o Menu Mobile */
+    .overlayMenu {
+        /* Efeito para Escurecer a Tela ao Abrir o Menu Mobile */
         background-color: #f538383d;
         width: 100%;
         height: 100%;
@@ -148,7 +158,7 @@
         margin-top: 40px;
     }
 
-    
+
     /* Seção de informação */
     .info-container {
         display: flex;
@@ -168,22 +178,22 @@
         flex-direction: column;
         text-align: center;
     }
-    
+
     .info-div img {
         width: 40px;
         height: 40px;
         margin-bottom: 15px;
         margin-right: 0px;
     }
-    
+
     .info-div p {
         font-size: 18px;
     }
-    
+
     .info-div span {
         font-size: 20px;
     }
-    
+
 
     /* Seção de Features */
     /* Titulo e Paragrafo */
@@ -230,22 +240,25 @@
 
 
     /* Seção de Planos */
-    .plan-container {   /* Seção geral que pega desde o titulo aos cards */  
+    .plan-container {
+        /* Seção geral que pega desde o titulo aos cards */
         text-align: center;
         width: 100%;
         margin-bottom: 150px;
     }
-    
-    .plan-container h2 {   /* Titulo da seção - Choose Your Plan */
+
+    .plan-container h2 {
+        /* Titulo da seção - Choose Your Plan */
         font-size: 28px;
         margin-bottom: 20px;
     }
-    
+
     .plan-container p {
         width: 100%;
     }
-    
-    .div-cards-geral {   /* Seção que pega todos os cards */
+
+    .div-cards-geral {
+        /* Seção que pega todos os cards */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -254,14 +267,15 @@
         margin-top: 50px;
         gap: 20px
     }
-    
-    .div-card-unitary {   /* Seção dos cards - unitarios - Parte de dentro dos cards */
+
+    .div-card-unitary {
+        /* Seção dos cards - unitarios - Parte de dentro dos cards */
         width: 330px;
         height: 550px;
         text-align: center;
     }
 
-    .div-card-unitary > img {
+    .div-card-unitary>img {
         width: 125px;
         height: 145px;
         margin-top: 20px;
@@ -271,7 +285,7 @@
     .div-card-unitary h3 {
         margin-bottom: 15px;
     }
-    
+
     /* Seção das informações de dentro dos cards (Parte das opções)*/
     .div-cards-info {
         width: 320px;
@@ -282,9 +296,9 @@
         font-weight: 400;
         margin-bottom: 18px;
     }
-    
+
     /* Volta para fora da seção das opções - seção do plano (valor) e botão */
-    
+
     .plan-free-button {
         display: flex;
         justify-content: center;
@@ -294,7 +308,7 @@
         text-align: center;
         margin-top: 70px;
     }
-    
+
     .plan-9-button {
         display: flex;
         justify-content: center;
@@ -302,8 +316,8 @@
         flex-direction: column;
         text-align: center;
         margin-top: 35px;
-    }   
-    
+    }
+
     .plan-12-button {
         display: flex;
         justify-content: center;
@@ -312,7 +326,7 @@
         text-align: center;
         margin-top: 0px;
     }
-    
+
     .div-card-unitary button {
         width: 165px;
     }
@@ -323,7 +337,7 @@
         box-shadow: inset 0 0 0px, 0px 20px 15px -8px rgba(245, 56, 56, 0.45);
         transition: 0.3s;
     }
-    
+
     .div-card-unitary button:not(:hover) {
         transition: 0.1s;
     }
@@ -334,7 +348,7 @@
         width: 100%;
         margin-bottom: 70px;
     }
-    
+
     .world-map-container h2 {
         font-size: 28px;
         margin-bottom: 20px;
@@ -342,10 +356,11 @@
 
     .world-map-container p {
         width: 100%;
+        text-wrap: wrap;
         text-align: center;
         margin-bottom: 30px;
     }
-    
+
     .world-map-container img {
         width: 370px;
         height: 300px;
@@ -358,88 +373,71 @@
     }
 
 
-    /* Seção de comentarios */
-    .comments-container {   /* Seção inteira da parte dos comentários */
+    /* Seção - Container Geral dos Comentários */
+    .testimonials-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        text-align: center;
+        padding-left: 11px;
+        padding-right: 10px;
         margin-bottom: 20px;
+        overflow: hidden;
     }
-    
-    .comments-container h2 {
+
+    .testimonials-header h2 {
         font-size: 28px;
     }
-    
+
+    /* Container dos Cards */
     .cards-container {
+        width: 100%;
+    }
+
+    .swiper-container {
+        width: 100%;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+    }
+
+    .swiper-slide {
         display: flex;
         justify-content: center;
-        margin-left: 20px;
-        margin-right: 20px;
-        gap: 30px;
-    }
-    
-    
-    /* Seção dos cards em si */
-    .comments-cards {
-        width: 380px;
-        height: 280px;
-    }
-    
-    
-    /* Seção das informações de dentro dos cards*/
-    
-    .top-part {   /* Seção que engloba a parte de cima do card dos comentarios */
-        display: flex;
-        justify-content: space-around;
         align-items: center;
-        margin: 0;
-        margin-top: 20px;
-        margin-bottom: -20px;
-        margin-left: 20px;
-        gap: 10px;
+        width: 370px;
     }
-    
-    .commentator-information {   /* Parte da imagem, nome e local do comentário */
-        display: flex;
-        justify-content: space-around;
-        gap: 20px;
-        margin: 0;
-        flex-wrap: wrap;
-    
+
+    /* Card */
+    .testimonial-card {
+        width: 370px;
+        height: 230px;
+        padding: 20px;
     }
-    
-    .assessment {   /* Parte da Avaliação */
-        display: flex;
-        gap: 10px;
-        margin: 0;
-        margin-right: 20px;
-    }
-    
-    /* Paragrafo do comentario da pessoa */
-    .comment {
-        width: 280px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 0px;
-    }
-    
-    /* Parte da seleção dos comentarios (seletor que mostra a parte atual selecionada dos mentarios e setas) */
-    .comment-select {
+
+    /* Navegação dos Cards */
+    .testimonials-nav {
         display: flex;
         justify-content: center;
-        margin-top: 35px;
-        margin-left: 20px;
-        margin-right: 20px;
-        gap: 150px;
+        margin-top: 40px;
+        gap: 90px;
     }
 
-    .comment-select img {
-        width: 100px;
-        margin: 0;
+    .testimonial-text {
+        width: 335px;
     }
 
-    /* Botão das setas da parte dos comentarios */
-    .buttons-comments-sets>button>i {
-        font-size: 45px;
+    /* Bolinhas de Paginação */
+    .pagination-container {
+        gap: 15px;
+    }
+
+    /* Setas de Navegação */
+    .arrows-buttons {
+        display: flex;
+        text-align: center;
+        gap: 10px;
     }
 
 
@@ -459,7 +457,7 @@
         top: 0%;
         left: 0%;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 60px;
         margin-bottom: 0px;
 
         box-shadow: none;
@@ -524,7 +522,7 @@
         margin: 0;
         margin-top: 0px;
         margin-bottom: 10px;
-        gap: 20px; 
+        gap: 20px;
     }
 
     .div-product {

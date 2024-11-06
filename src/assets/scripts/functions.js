@@ -47,16 +47,17 @@ const swiper = new Swiper('.swiper-container', {
   spaceBetween: 0, // Espaço entre os slides
   loop: true,
   simulateTouch: false,
+  allowTouchMove: false,
   breakpoints: {
     // Tela com tamanho menor ou igual a >= 320px
     320: {
       slidesPerView: 1,
-      spaceBetween: 20
+      spaceBetween: 30,
     },
     // Tela com tamanho menor ou igual a >= 768px
     768: {
       slidesPerView: 2,
-      spaceBetween: 50
+      spaceBetween: 40,
     },
     // Tela com tamanho menor ou igual a >= 1188px
     1188: {
