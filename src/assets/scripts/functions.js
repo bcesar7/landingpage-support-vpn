@@ -27,6 +27,37 @@ overlayMenu.addEventListener('click', () => {
 })
 
 
+
+// ----------  ||  ---------- \\
+// ----------  Efeito de Navegação na Página  ---------- \\
+
+// Seleciona todos os links de navegação com href que começa com "#"
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      // Evita o comportamento padrão da página
+      e.preventDefault();
+      
+      // Pega o id do destino a partir do href do link
+      const targetId = this.getAttribute('href');
+      const targetElement = document.querySelector(targetId);
+      
+      // Define o deslocamento desejado (em pixels)
+      const offset = 20;
+
+      // Calcula a posição da seção menos o offset e rola suavemente
+      const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - offset;
+
+      // Usa window.scrollTo para rolar até o destino; Usa behavior: 'smooth' para adicionar efeito de suavidade
+      window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+      });
+  });
+});
+
+
+
 // ----------  ||  ---------- \\
 // ----------  Swipper - Slide para os Cards  ---------- \\
 
