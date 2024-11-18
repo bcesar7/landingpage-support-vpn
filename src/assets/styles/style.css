@@ -36,6 +36,10 @@ header {
 
 .logo-container {
     display: flex;
+    width: 100%;
+    max-width: 175px;
+    height: 100%;
+    max-height: 36.23px;
     align-items: center;
     gap: 10px;
     margin-right: 117px;
@@ -54,8 +58,6 @@ header {
 
 
 /* Menus de navegação / Links de ancoragem */
-
-
 nav>ul {
     list-style-type: none;
 }
@@ -69,6 +71,10 @@ nav>ul>li>a {
 /* Menu Desktop */
 .desktop-menu ul {
     display: flex;
+    width: 100%;
+    max-width: 448px;
+    height: 100%;
+    max-height: 19.38px;
     margin-right: 153px;
     gap: 37px;
 }
@@ -86,6 +92,10 @@ nav>ul>li>a {
 /* Botões a direita */
 .access-container {
     display: flex;
+    width: 100%;
+    max-width: 233px;
+    height: 100%;
+    max-height: 45px;
     gap: 30px;
     font-size: 16px;
 }
@@ -102,15 +112,15 @@ button {
 }
 
 /* Ainda sobre os botões a direita */
-.access-container :first-child {
+.access-container .button :first-child {
     color: #0B132A;
 }
 
-.access-container :last-child {   /* last-child significa ultimo filho, no caso, o ultimo elemento desta div */
-    border-radius: 50px;
-    border: 1px solid #F53855;
+.button-sign-up {
     width: 150px;
     height: 45px;
+    border: 1px solid #F53855;
+    border-radius: 50px;
     color: #F53855;
 }
 
@@ -181,6 +191,12 @@ p {
     transition: 0.5s;
 }
 
+.about-container img {
+    width: 100%;
+    max-width: 611.24px;
+    height: 382.44px;
+}
+
 
 /* Seção das informações de quantidades de usuarios, localizações e servidores */
 .info-container {
@@ -202,8 +218,10 @@ p {
 }
 
 .info-div img {
-    width: 55px;
-    height: 55px;
+    width: 100%;
+    max-width: 55px;
+    height: 100%;
+    max-height: 55px;
     margin-right: 36.5px;
 }
 
@@ -232,8 +250,10 @@ p {
 }
 
 .features-container img {
-    width: 508px;
-    height: 415px;
+    width: 100%;
+    max-width: 508px;
+    height: 100%;
+    max-height: 415px;
 }
 
 .feat-div-title-par h2 {
@@ -320,9 +340,11 @@ p {
 }
 
 .div-card-unitary img {
-    width: 145px;
-    height: 165px;
-    margin-top: 79px;
+    width: 100%;
+    max-width: 145px;
+    height: 100%;
+    max-height: 165px;
+    margin-top: 70px;
     margin-bottom: 30px;
 }
 
@@ -368,15 +390,15 @@ p {
 /* Volta para fora da seção das opções - seção do plano (valor) e botão */
 
 .plan-free-button {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .plan-9-button {
-    margin-top: 90px;
+    padding-top: 93px;
 }   
 
 .plan-12-button {
-    margin-top: 50px;
+    padding-top: 56px;
 }
 
 .div-card-unitary span {
@@ -427,8 +449,10 @@ p {
 }
 
 .world-map-container img {
-    width: 1060px;
-    height: 538px;
+    width: 100%;
+    max-width: 1060px;
+    height: 100%;
+    max-height: 538px;
 }
 
 
@@ -535,7 +559,6 @@ p {
 .peaple-info img {
     width: 50px;
     height: 50px;
-    /* margin-right: 20px; */
 }
 
 /* Nome e Localização do Usúario */

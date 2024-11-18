@@ -118,11 +118,13 @@
 
     /* Botões do Topo da Página */
     .access-container {
+        display: flex;
+        margin-left: 12px;
         gap: 15px;
     }
 
-    .access-container :last-child {
-        width: 86px;
+    .button-sign-up {
+        width: 90px;
         height: 35px;
     }
 
