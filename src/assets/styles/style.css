@@ -118,6 +118,8 @@ button {
 /* Hero da página - Primeira seção após o header */
 .about-container {
     width: 100%;
+    max-width: 1207px;
+    height: 383px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,7 +185,8 @@ p {
 /* Seção das informações de quantidades de usuarios, localizações e servidores */
 .info-container {
     display: flex;
-    width: 1140px;
+    width: 100%;
+    max-width: 1140px;
     height: 200px;
     justify-content: space-around;
     align-items: center;
@@ -204,14 +207,14 @@ p {
     margin-right: 36.5px;
 }
 
-.info-div p {
-    font-size: 20px;
-}
-
 .info-div span {
     font-size: 25px;
     font-weight: 700;
     color: #0B132A;
+}
+
+.info-div p {
+    font-size: 20px;
 }
 
 
@@ -219,9 +222,11 @@ p {
 
 /* Titulo e Paragrafo */
 .features-container {
-    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1107px;
     margin-bottom: 211px;
     gap: 169.48px;
 }
@@ -265,8 +270,13 @@ p {
 
 
 /* Seção dos planos */
-.plan-container {   /* Seção geral que pega desde o titulo aos cards */  
+.plan-container {   /* Seção geral que pega desde o titulo aos cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
     width: 100%;
+    max-width: 1090px;
     text-align: center;
     margin-bottom: 180px;
 }
@@ -285,15 +295,16 @@ p {
 
 .div-cards-geral {   /* Seção que pega todos os cards */
     display: flex;
-    text-align: center;
     justify-content: center;
+    text-align: center;
     margin-top: 60px;
     gap: 50px;
 }
 
 .div-card-unitary {   /* Seção dos cards - unitarios - Parte de dentro dos cards */
     width: 330px;
-    height: 760px;
+    height: 100%;
+    max-height: 760px;
     border: 2px solid #DDDDDD;
     border-radius: 10px;
     text-align: center;
@@ -383,12 +394,18 @@ p {
     width: 178px;
     height: 45px;
     margin-top: 20px;
+    margin-bottom: 35px;
 }
 
 
 /* Seção do mapa mundi */
 .world-map-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    max-width: 1060px;
     text-align: center;
     margin-bottom: 36px;
 }
@@ -417,7 +434,11 @@ p {
 
 /* Seção de logos das empresas */
 .companies-logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    max-width: 1136px;
     text-align: center;
 }
 
@@ -429,8 +450,9 @@ p {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
+    max-width: 1320px;
+    padding: 0px 15px;
+    margin: auto;
     margin-bottom: 176.75px;
     position: relative;
 }
@@ -621,7 +643,8 @@ p {
     top: 132%;
     left: 50%;
 
-    width: 1140px;
+    width: 100%;
+    max-width: 1140px;
     height: 233px;
     border-radius: 10px;
     background-color: white;
